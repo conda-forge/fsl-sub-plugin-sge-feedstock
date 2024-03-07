@@ -1,5 +1,5 @@
 {% set name = "fsl-sub-plugin-sge" %}
-{% set version = "1.5.4" %}
+{% set version = "1.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fsl_sub_plugin_sge-{{ version }}.tar.gz
-  sha256: 2e77a403f417443c4cd7c29c04c3d7cd4e4ec7dc6ff37520a4a37b01a44dd393
+  sha256: dccd61d63e5bd99efa8dee8fe91b0327b93420e766d92dfebbe0ac52913785ab
 
 build:
   noarch: python
